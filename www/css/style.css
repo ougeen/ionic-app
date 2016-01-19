@@ -1,0 +1,32 @@
+.menu {
+  background-color: #5F5F5F; }
+  .menu .bar.bar-stable {
+    background: transparent;
+    color: #FFF; }
+  .menu .bar .title {
+    color: #FFF;
+    text-align: left;
+    padding: 5px;
+    line-height: 33px;
+    font-weight: normal; }
+    .menu .bar .title > * {
+      vertical-align: middle; }
+    .menu .bar .title span {
+      display: inline-block; }
+    .menu .bar .title img {
+      display: inline-block;
+      margin-right: 10px;
+      border-radius: 4px;
+      max-width: 30px; }
+
+.item-complex .item-content, .item-radio .item-content,
+.item {
+  color: #ffffff;
+  border-color: #ddd;
+  background-color: transparent; }
+
+.tabs {
+  position: static; }
+  .tabs .tab-item.activated {
+    color: #fff;
+    background-color: #55a4c2; }

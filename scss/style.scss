@@ -1,0 +1,45 @@
+.menu {
+  background-color: #5F5F5F;
+  .bar {
+    &.bar-stable {
+      background: transparent;
+      color: #FFF;
+    }
+    .title {
+      color: #FFF;
+      text-align: left;
+      padding: 5px;
+      line-height: 33px;
+      font-weight: normal;
+      > * {
+        vertical-align: middle;
+      }
+      span {
+        display: inline-block;
+      }
+      img {
+        display: inline-block;
+        margin-right: 10px;
+        border-radius: 4px;
+        max-width: 30px;
+      }
+    }
+  }
+}
+
+.item-complex .item-content, .item-radio .item-content,
+.item {
+  color: #ffffff;
+  border-color: #ddd;
+  background-color: transparent;
+}
+
+.tabs {
+  position: static;
+  .tab-item {
+    &.activated {
+      color: #fff;
+      background-color: #55a4c2;
+    }
+  }
+}
